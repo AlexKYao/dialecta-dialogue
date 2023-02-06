@@ -16,7 +16,7 @@ const generateAction = async (req, res) => {
 
     Generate a dialogue between two people in an informal style of speaking about this topic: ${req.body.userInput}`,
     temperature: 0.7,
-    max_tokens: 500,
+    max_tokens: 400,
   });
   
   // Get the output
