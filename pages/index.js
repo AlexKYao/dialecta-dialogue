@@ -36,8 +36,6 @@ const Home = () => {
     setIsGenerating(false);
   }
   
-  
-
   const handleLanguageChange = (event) => {
     setSelectedLanguage(event.target.value)
   }
